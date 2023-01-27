@@ -1,0 +1,688 @@
+//Universal style------------------------------------------------->
+*{
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: monospace;
+}
+
+
+//Navigation-------------------------------------------------------->
+.navbar{
+    width:100%;
+    display: inline-flex;
+    margin-bottom:30px;
+}
+.head h2{
+    position: relative;
+    padding:10px 50px;
+}
+.navitem li{
+    position:relative;
+    display: inline-flex;
+    list-style:none;
+    padding:10px;
+    font-weight: 200;
+}
+.navitem {
+    padding-left: 550px;
+}
+.navitem a:hover{
+    color:brown;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.soc-icon img{
+   position: relative;
+   height:20px;
+   width:20px;
+}
+.soc-icon li{
+    position: relative;
+    display: inline-flex;
+    list-style:none;
+    padding: 10px;
+}
+.soc-icon img:hover{
+    cursor: pointer;
+}
+
+.btn{
+    padding:14px 0px 0px 30px;
+}
+.btn button:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+  
+}
+.btn button{
+    position: relative;
+    display: inline-flex;
+    padding:10px 10px 5px 10px;
+    margin:5px;
+    border-radius: 30px;
+    background-color: #a9ce45;
+}
+.btn img{
+    position: relative;
+    height:20px;
+    width:20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+//Slider--------------------------------------------->
+.slider{
+    position: relative;
+    text-align: center;
+    background-color: #a9ce45;
+    border: 1px solid #a9ce45;
+    border-radius: 20px;
+    margin:0px 50px 90px 50px;
+    padding:50px 0px;
+    height:500px;
+}
+.btn2{
+    position: relative;
+    display: inline-flex;
+    padding: 15px 35px;
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border:2px solid white;
+    margin-bottom:20px;
+}
+.btn2:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.cont {
+a{
+    font-weight: bold;
+    color:black;
+}
+ h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+}
+
+
+//Icons------------------------------------------------>
+.iconhead{
+   padding-left:50px;
+}
+.icon{
+    width:100%;
+    border-top:1px solid rgb(184, 184, 184);
+}
+.icon img{
+    position: relative;
+    height:60px;
+    width:60px;
+}
+.icondata img:hover{
+    cursor: pointer;
+}
+.ic1:hover{
+    display: none;
+}
+.ic2{
+   display:none;
+}
+.ic1:hover + .ic2{
+    display:inline-flex;
+}
+.icondata 
+{
+    display: inline-flex;
+    position: relative;
+    padding: 10px 30px 10px 50px;
+small{ 
+    display: block;
+    position: relative;
+    color: gray;
+    padding:50px 0px 50px 0px;
+    right:35%;
+}
+h4{
+    display:inline-flex;
+    position: relative;
+    padding:0px 0px 20px 15px;
+}
+}
+
+
+//Cards------------------------------------------------------>
+ .content{
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:70px 50px;
+}
+.cardhead h3{
+    display: block;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    padding:10px 0px 0px 30px;
+ }
+.cards{
+    display:flex;
+    justify-content: space-between;
+}
+.card1{
+    width:45%;
+    background-color:white;
+    color:black;
+    margin:10px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.card1 img{
+    width:90%;
+    margin:25px;
+    border-radius: 20px;
+}
+.card1 h1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 300;
+    padding:10px 80px;
+}
+.card2{ 
+    position: relative;
+    bottom:50%;
+    width:45%;
+    background-color:white;
+    color:black;
+    margin:10px 30px;
+     border: 1px solid white;
+    border-radius: 20px;
+    padding:0px 10px;
+}
+.card2 h5{
+    position: relative;
+    font-size: 15px;
+    font-weight: 200;
+    color:gray;
+    padding:0px 16px;
+    margin-bottom: 10px;
+}
+.para{
+   border-top:1px solid black;
+   font-size:20px;
+   margin: 10px 20px 155px 20px;
+}
+.btn-otr{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+}
+.btn3{
+    position: relative;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color:gray;
+    border:2px solid gray;
+}
+.btn4{
+    position: relative;
+    padding:0px 15px 5px 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    border:2px solid black;
+    background-color: #a9ce45;
+    height:40px;
+}
+.btn4 img{
+    position: relative;
+    height:20px;
+    width:25px;
+    top:4px;
+    padding:2px 2px 0px 5px;
+    margin:0px;
+}
+.btn3:hover,.btn4:hover{
+    color:white;
+    border-color: black;
+    cursor: pointer;
+    background-color: brown;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+
+//Footer aboutpg------------------------------------------------------>
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin:0px 100px;
+    padding:10px 50px 40px 170px;
+ }
+.footer h1{
+    position: relative;
+    font-size: 50px;
+    font-weight: 100;
+    padding:45px;
+}
+.footer p{
+    position: relative;
+    width:80%;
+    padding:20px;
+    font-size: 20px;
+    color:gray;
+    border-left:1px solid gray;
+}
+
+
+
+//Footer---------------------------------------------------------------->
+.cr{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding:20px;
+    width:100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content h1{
+    position: relative;
+    padding-left:20px;
+}
+.social img{
+    position: relative;
+    height:40px;
+    width:40px;
+    border:1px solid gray;
+    background-color: white;
+}
+footer li{
+ list-style: none;
+}
+.social li{
+    position: relative;
+    display: inline-flex;
+    padding:0px 20px;
+}
+.footer-menu li{
+    position: relative;
+    display: inline-flex;
+}
+.footer-menu a:hover{
+    cursor: pointer;
+    color: brown;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.footer-menu a{
+    text-decoration: none;
+    color:white;
+    padding: 0px 10px;
+    position: relative;
+}
+.footer-menu ul{
+    padding:15px 10px 0px 170px;
+}
+.footer-bottom p{
+   text-align: center;
+    position: relative;
+    font-size: 13px;
+    padding:10px;
+}
+.footer-bottom{
+    height:35px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+}
+.social img:hover{
+    background-color: brown;
+    transition: all .6s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+
+
+
+
+
+//MAX_WIDTH 768px---------------------------------------------->
+//@media (max-width: 768px) {
+@media screen and (min-device-width: 480px)
+and (max-device-width: 768px) {
+
+    .container {
+          width:100%;
+        }
+
+//Navbar----------------------------->
+    .navbar select {
+            display: none;
+     }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navitem ul{
+            display:flex;
+            justify-content: space-between;
+            position: relative;
+    }
+    .navitem{
+        padding:0px;
+    }
+    .soc-icon ul{
+        position: relative;
+        display:flex;
+        justify-content: space-between;
+       
+    }
+    .btn button{
+        position: relative;
+       display:flex;
+       justify-content:space-between;
+        font-size: 10px;
+        height:40px;
+        border:1px solid gray;
+    }
+
+
+//Slider--------------------------------------->
+.slider{
+    width:100%;
+}
+//Icons---------------------------------------->
+.icon{
+    position: relative;
+    align-items: center;
+}
+
+//cards---------------------------------------->
+    .content{
+        position: relative;
+        background-color:black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+     }
+     .card1 h1{
+        padding:2px;
+     }
+     .btn-otr{
+        display: flex;
+        justify-content: space-between;
+     }
+     .btn3{
+        position: relative;
+        padding: 0px 5px;
+       
+    }
+    .btn4{
+        position: relative;
+        padding:0px 5px 5px 5px;
+    }
+  
+
+//Footer--------------------------------------->
+    .footer{
+        width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding:10px 10px 10px 80px;
+       margin:20px;
+     }
+     
+//Copyright-------------------------------------->
+    .cr{
+        width:100%;
+     }
+
+    .footer-menu ul{
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        padding:2px;
+    }
+    .social ul{
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        padding:1px;
+    }
+   }
+
+
+
+//MAX_WIDTH 480px---------------------------------------------->
+
+//    @media (max-width: 480px) {
+//     .container {
+//         width:100%;
+//       }
+//       .navbar ul{ 
+//         display: none; 
+//     }
+//      .navbar select{
+//         display: block;
+//      }
+    
+//      .hamburger {
+//         cursor: pointer;
+//         display: flex;
+//         flex-direction: column;
+
+//       }
+      
+//       .line {
+//         width: 25px;
+//         height: 2px;
+//         background-color: black;
+//         margin: 5px 0;
+//       }
+      
+//       .nav-items a{
+//         display: block;
+//         text-decoration: none;
+//         color:white;
+//         background-color: black;
+//       }
+      
+//       .show {
+//         display: inline-flex;
+//       }
+
+
+//   .soc-icon ul{
+//       position: relative;
+//       display: inline-flex;
+//      right:350%;
+//   }
+//   .btn button{
+//       position: relative;
+//       display: inline-flex;
+//       right:240%;
+//       font-size: 10px;
+//       height:40px;
+//       margin-right:150px;
+//       border:1px solid gray;
+//   }
+//  .slider{
+//    padding:20px;
+//  }
+
+//   .content{
+//       position: relative;
+//       background-color:black;
+//       color: white;
+//       border: 1px solid black;
+//       border-radius: 20px;
+//       height:92em;
+//    }
+//    .cardhead h3{
+//       display: block;
+//       position: relative;
+//       text-align: center;
+//    }
+//    .card1{
+//       position: relative;
+//        width:85%;
+//       background-color:white;
+//       color:black;
+//        border: 1px solid white;
+//       border-radius: 20px;
+//   }
+//   .card1 img{
+//       width:85%;
+//       margin:25px;
+//       border-radius: 20px;
+//   }
+//   .card2{ 
+//       position: relative;
+//       top:1%;
+//        width:85%;
+//       background-color:white;
+//       color:black;
+//       border-radius: 20px;
+//   }
+//   .card1 h1{
+//       position: relative;
+//       font-size: 30px;
+//       font-weight: 300;
+//       bottom:20px;
+//       text-align: center;
+//       padding: 0px 20px;
+//   }
+//   .btn3{
+//       position: relative;
+//       display:block;
+//       margin:10px;
+//       border-radius: 30px;
+//       padding: 10px 20px;
+//       font-weight: bold;
+//       color:gray;
+//       border:2px solid gray;
+//       left:23%;
+//       //bottom:15px;
+//      // left:15px;
+//   }
+//   .btn4{
+//       position: relative;
+//       display: block;
+//       padding: 0px 20px 5px 20px;
+//       font-weight: bold;
+//       margin:5px;
+//       border-radius: 30px;
+//       border:2px solid black;
+//       background-color: #a9ce45;
+//       height:40px;
+//       bottom:10px;
+//       left:25%;
+//   }
+//   .btn4 img{
+//       position: relative;
+//       height:20px;
+//       width:25px;
+//       padding-left: 8px;
+//       top:5px;
+//       bottom:0px;
+//       margin:0px;
+//   }
+//   .footer{
+//       position: relative;
+//       display:block;
+//       bottom:90px;
+//    }
+//    .footer h1{
+//       position: relative;
+//       font-size: 50px;
+//       font-weight: 100;
+//       text-align: center;
+//       padding:10px;
+//       left:10px;
+//       margin:0px;
+//   }
+//   .footer p{
+//       position: relative;
+//      text-align: center;
+//       width:80%;
+//       font-size: 20px;
+//       margin:40px;
+//       color:gray;
+//       border:none;
+//   }
+
+//    .cr{
+//     position:relative;
+//     bottom:50px;
+//  }
+//   .footer-bottom p{
+//       position:relative;
+//       margin:0px;
+//       padding: 0px;
+//       font-size: 12px;
+//       left:30%;
+    
+//   }
+//   .footer-bottom{
+//     background-color: black;
+//   }
+//   .footer-menu li{
+//       position:relative;
+//      top:30px;
+//     padding:0px;
+//   }
+//   .footer-menu a{
+//       position:relative;
+//       right:300px;
+//   }
+//   .icondata{ 
+//     position: relative;
+//     padding:15px 99px;
+//   }
+//   .iconhead h3{
+//     position: relative;
+//     padding:0px 120px;
+//   }
+
+//    }
+
+
+
